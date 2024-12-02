@@ -13,7 +13,7 @@ const socket = require('socket.io')
 const server = http.createServer(app)
 
 app.use(cors({
-    origin: ['http://localhost:3000', 'http://localhost:3001',"https://my-shop-one-sand.vercel.app"],
+    origin: ['http://localhost:3000', 'http://localhost:3001', "https://my-shop-one-sand.vercel.app", "https://my-shop-dashboard-murex.vercel.app"],
     credentials: true
 }))
 
